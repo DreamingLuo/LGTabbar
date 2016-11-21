@@ -14,6 +14,11 @@
 		EB7FF27E1DE28513004A18C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7FF27C1DE28513004A18C9 /* LaunchScreen.storyboard */; };
 		EB7FF2891DE28513004A18C9 /* LGTabbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7FF2881DE28513004A18C9 /* LGTabbarTests.swift */; };
 		EB7FF2941DE28513004A18C9 /* LGTabbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7FF2931DE28513004A18C9 /* LGTabbarUITests.swift */; };
+		EB7FF2A21DE285D3004A18C9 /* RootTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7FF2A11DE285D3004A18C9 /* RootTabbarController.swift */; };
+		EB7FF2A41DE287B1004A18C9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7FF2A31DE287B1004A18C9 /* FirstViewController.swift */; };
+		EB7FF2A61DE287C1004A18C9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7FF2A51DE287C1004A18C9 /* SecondViewController.swift */; };
+		EB7FF2A81DE287D4004A18C9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7FF2A71DE287D4004A18C9 /* ThirdViewController.swift */; };
+		EB7FF2AA1DE287FF004A18C9 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7FF2A91DE287FF004A18C9 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		EB7FF28F1DE28513004A18C9 /* LGTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7FF2931DE28513004A18C9 /* LGTabbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGTabbarUITests.swift; sourceTree = "<group>"; };
 		EB7FF2951DE28513004A18C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7FF2A11DE285D3004A18C9 /* RootTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabbarController.swift; sourceTree = "<group>"; };
+		EB7FF2A31DE287B1004A18C9 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EB7FF2A51DE287C1004A18C9 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EB7FF2A71DE287D4004A18C9 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		EB7FF2A91DE287FF004A18C9 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				EB7FF2731DE28513004A18C9 /* AppDelegate.swift */,
 				EB7FF2751DE28513004A18C9 /* ViewController.swift */,
+				EB7FF2A91DE287FF004A18C9 /* FourthViewController.swift */,
+				EB7FF2A71DE287D4004A18C9 /* ThirdViewController.swift */,
+				EB7FF2A51DE287C1004A18C9 /* SecondViewController.swift */,
+				EB7FF2A31DE287B1004A18C9 /* FirstViewController.swift */,
+				EB7FF2A11DE285D3004A18C9 /* RootTabbarController.swift */,
 				EB7FF2771DE28513004A18C9 /* Main.storyboard */,
 				EB7FF27A1DE28513004A18C9 /* Assets.xcassets */,
 				EB7FF27C1DE28513004A18C9 /* LaunchScreen.storyboard */,
@@ -257,7 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB7FF2761DE28513004A18C9 /* ViewController.swift in Sources */,
+				EB7FF2A21DE285D3004A18C9 /* RootTabbarController.swift in Sources */,
 				EB7FF2741DE28513004A18C9 /* AppDelegate.swift in Sources */,
+				EB7FF2AA1DE287FF004A18C9 /* FourthViewController.swift in Sources */,
+				EB7FF2A61DE287C1004A18C9 /* SecondViewController.swift in Sources */,
+				EB7FF2A81DE287D4004A18C9 /* ThirdViewController.swift in Sources */,
+				EB7FF2A41DE287B1004A18C9 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
